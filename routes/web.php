@@ -14,3 +14,19 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/first',function()
+{
+    echo"first route created using url";
+});
+
+Route::get('/second',function()
+{
+    echo"second route created using url";
+});
+
+
+Route::get('/third',function()
+{
+    echo"third route created using url";
+});
