@@ -42,7 +42,4 @@ Route::get('/echo',function()
 })->name('second');
 
 
-Route::get('/printin',function()
-{
-    echo"named url third";
-})->name('third');
+Route::get('/table','TestController@table')->name('Table');
