@@ -30,3 +30,19 @@ Route::get('/third',function()
 {
     echo"third route created  using url";
 });
+
+Route::get('/print',function()
+{
+    echo"named route first";
+})->name('first');
+
+Route::get('/echo',function()
+{
+    echo"named route second";
+})->name('second');
+
+
+Route::get('/printin',function()
+{
+    echo"named url third";
+})->name('third');
