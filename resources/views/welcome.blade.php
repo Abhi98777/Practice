@@ -85,8 +85,8 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Demo</a>
-                    <a href="https://laracasts.com">Check</a>
+                    <a href="{{ route('first')}}">Name Route check</a>
+                    <a href="{{url('/first')}}">url check</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://blog.laravel.com">Blog</a>
                     <a href="https://nova.laravel.com">Nova</a>
